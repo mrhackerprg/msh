@@ -1,0 +1,127 @@
+@font-face {
+    font-family:"Droid Arabic Kufi";
+    src: url('../fonts/Droid_Arabic_Kufi.eot');
+    src: url('../fonts/Droid_Arabic_Kufi.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Droid Arabic Kufi.woff') format('woff'),
+         url('../fonts/Droid Arabic Kufi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#preloader {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: #f5f5f5;
+}
+
+html, body {
+    background: #F5F5F5;
+    font-family: "Droid Arabic Kufi", 'Hind', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.color-container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    float: left;
+    display: none;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.color-container h2 {
+    margin: 0;
+    text-align: center;
+    color: #343333;
+}
+
+.colors {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.colors li {
+    display: inline-block;
+    width: 50px;
+    margin: 10px;
+    height: 50px;
+}
+
+.colors li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.red {
+    background: #E94C6F;
+    box-shadow: 0 0 0 8px rgba(233, 76, 111, 0.15), 0 0 0 0 rgba(233, 76, 111, 0.3);
+}
+
+.green {
+    background: #00B796;
+    box-shadow: 0 0 0 8px rgba(0, 183, 150, 0.15), 0 0 0 0 rgba(0, 183, 150, 0.3);
+}
+
+.blue {
+    background: #00B6F9;
+    box-shadow: 0 0 0 8px rgba(0, 182, 249, 0.15), 0 0 0 0 rgba(0, 182, 249, 0.3);
+}
+
+.yellow {
+    background: #FFC300;
+    box-shadow: 0 0 0 8px rgba(255, 195, 0, 0.15), 0 0 0 0 rgba(255, 195, 0, 0.3);
+}
+
+.and-green {
+    background: #BCC747;
+    box-shadow: 0 0 0 8px rgba(188, 199, 71, 0.15), 0 0 0 0 rgba(188, 199, 71, 0.3);
+}
+
+.gothic {
+    background: #6A8D9D;
+    box-shadow: 0 0 0 8px rgba(106, 141, 157, 0.15), 0 0 0 0 rgba(106, 141, 157, 0.3);
+}
+
+
+.red:hover {
+    box-shadow: 0 0 0 8px rgba(233, 76, 111, 0.15), 0 0 0 40px rgba(233, 76, 111, 0);
+}
+
+.green:hover {
+    box-shadow: 0 0 0 8px rgba(0, 183, 150, 0.15), 0 0 0 40px rgba(0, 183, 150, 0);
+}
+
+.blue:hover {
+    box-shadow: 0 0 0 8px rgba(0, 182, 249, 0.15), 0 0 0 40px rgba(0, 182, 249, 0);
+}
+
+.yellow:hover {
+    box-shadow: 0 0 0 8px rgba(255, 195, 0, 0.15), 0 0 0 40px rgba(255, 195, 0, 0);
+}
+
+.and-green:hover {
+    box-shadow: 0 0 0 8px rgba(188, 199, 71, 0.15), 0 0 0 40px rgba(188, 199, 71, 0);
+}
+
+.gothic:hover {
+    box-shadow: 0 0 0 8px rgba(106, 141, 157, 0.15), 0 0 0 40px rgba(106, 141, 157, 0);
+}
